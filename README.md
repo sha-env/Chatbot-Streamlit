@@ -89,7 +89,7 @@ To run the Python scripts provided in this repository, use the following command
 
 1. **Run command**
    ```bash
-   streamlit run streamlit_react_tools_app.py
+   streamlit run streamlit_react_app.py
    ```
 1. **Automatically open at**
    ```bash

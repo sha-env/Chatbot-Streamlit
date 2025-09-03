@@ -70,11 +70,11 @@ To set up this project on your local machine, follow these steps:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sha-env/chatbot-streamlit.git
+   git clone https://github.com/sha-env/Chatbot-Streamlit.git
    ```
 2. **Navigate to the project directory**
    ```bash
-   cd chatbot-streamlit
+   cd Chatbot-Streamlit
    ```
 3. **Install dependencies**
    ```bash
@@ -106,6 +106,6 @@ This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE
 
 <div align="center">
   <a href="https://www.instagram.com/sha.env/">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:00000,20:EEEEEE&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:00000,20:FFFFFF&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
   </a>
 </div>

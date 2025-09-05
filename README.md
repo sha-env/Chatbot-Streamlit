@@ -1,18 +1,21 @@
-# Chatbot Streamlit
+# Streamlit Chatbot Demo
 
-This repository provides a Streamlit-based chatbot application, featuring multiple UI variants (basic and React). It serves as a starting point for building and deploying interactive chatbot interfaces locally or with Docker.
+This repository provides a Streamlit-based chatbot application with multiple UI options (basic and React). It is a practical starting point for building, customizing, and deploying AI-powered chatbot interfaces using Python. Developers can run it locally or inside Docker for quick experimentation and prototyping.
 
 <hr><br>
 
 ## Purpose of This Repository
 
-The purpose of this repository is to provide developers with a starting point for building chatbot applications using Streamlit. By offering multiple UI variants, optional React integration, and Docker support, this project aims to make it easier for developers to explore, customize, and deploy interactive chatbot interfaces.
+- Explore conversational AI with Streamlit
+- Customize chatbot interfaces with ease
+- Deploy prototypes quickly in a local or containerized environment
+
 
 <hr><br>
 
 ## Demonstration
 
-Here is a quick demo of what you can achieve with this repository:
+Here’s a simple demo of the chatbot logic in action:
 
 ```python
 # streamlit_app.py
@@ -44,37 +47,37 @@ if user_input:
 
 ## Features
 
-- Streamlit-based chatbot UI for quick prototyping
-- Multiple application variants (basic, advanced, and React-integrated)
-- Simple chatbot logic with customizable responses
+- Streamlit-based chatbot UI for fast prototyping
+- Multiple application variants: basic, advanced, and React-integrated
+- Customizable chatbot logic with simple Python functions
 - Optional React tools integration for richer user experience
-- Docker support for easy containerized deployment
+- Docker support for containerized deployment
 - Database utility (database_tools.py) for data storage and interaction
-- Clean code structure with clear separation of logic and UI
+- Clean and modular code structure separating logic and UI
 
 <hr><br>
 
 ## Technologies Used
 
-- Python 3.x
-- Streamlit – for building the chatbot UI
-- React (optional) – for enhanced and interactive frontend integration
-- SQLite / database_tools – for data handling and storage
-- Docker – for containerized deployment
+- Python 3.x – main programming language
+- Streamlit – for building interactive chatbot UIs
+- React (optional) – for advanced and dynamic frontend integration
+- SQLite / database_tools.py – lightweight database handling
+- Docker – containerized setup and deployment
 
 <hr><br>
 
 ## Project Setup
 
-To set up this project on your local machine, follow these steps:
+To set up this project on your local machine:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sha-env/Chatbot-Streamlit.git
+   git clone https://github.com/sha-env/streamlit-chatbot-demo.git
    ```
 2. **Navigate to the project directory**
    ```bash
-   cd Chatbot-Streamlit
+   cd streamlit-chatbot-demo
    ```
 3. **Install dependencies**
    ```bash
@@ -85,13 +88,11 @@ To set up this project on your local machine, follow these steps:
 
 ## Steps to Run
 
-To run the Python scripts provided in this repository, use the following command:
-
-1. **Run command**
+1. **Start the Streamlit app**
    ```bash
    streamlit run streamlit_react_app.py
    ```
-1. **Automatically open at**
+1. **Open the app in your browser**
    ```bash
    http://localhost:8501
    ```
